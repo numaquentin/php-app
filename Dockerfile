@@ -17,6 +17,7 @@ RUN docker-php-ext-install sockets
 # On copie les fichiers html afin que php puisse les lancer
 COPY . /var/www/html
 
+# On installe Composer, librairie qui permet de gérer les dépendances
 RUN curl --silent --show-error https://getcomposer.org/installer --output /tmp/composer-setup.php 
 RUN php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer -version=2.5.6 
 RUN composer update

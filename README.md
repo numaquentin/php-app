@@ -19,3 +19,16 @@ The services shows a basic example of how to create a service for processing vid
 
 ## Source
 <https://github.com/ProdigyView-Toolkit/Microservices-Examples-PHP>
+
+
+# Commandes à effectuer : 
+1. Commande pour build :
+    docker compose up --build -d
+2. Commande pour run :
+    docker compose exec -it php bash
+3. Dans le bash, lancer la commande suivante pour run le code et lancer le serveur :
+    php server.php
+4. Dans un navigateur, mettre l'URL suivante : 
+    http://localhost:8080/client.php
+5. Pour lire la vidéo, mettre l'URL suivante : 
+    http://localhost:8080/video.mp4
