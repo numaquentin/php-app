@@ -1,0 +1,12 @@
+version: "3"
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+     - 8080:80    # On notifie le port pour pouvoir se connecter au navigateur au port 8080
+    volumes: 
+      - ..:/workspace:cached
+  rabbitmq:
+    image: rabbitmq:3.12.4-management
