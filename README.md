@@ -28,6 +28,7 @@ The services shows a basic example of how to create a service for processing vid
     docker compose exec -it php bash
 ## 3. Dans le bash, lancer la commande suivante pour run le code et lancer le serveur :
     php server.php
+Il est également possible de lancer le serveur avec l'URL suivante : <http://localhost:8080/server.php>
 ## 4. Dans un navigateur, mettre l'URL suivante : 
 <http://localhost:8080/client.php>
 ## 5. Pour lire la vidéo, mettre l'URL suivante (le lien de la vidéo est également disponible sur la page précédente) : 
