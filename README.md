@@ -29,6 +29,6 @@ The services shows a basic example of how to create a service for processing vid
 ## 3. Dans le bash, lancer la commande suivante pour run le code et lancer le serveur :
     php server.php
 ## 4. Dans un navigateur, mettre l'URL suivante : 
-    http://localhost:8080/client.php
+<http://localhost:8080/client.php>
 ## 5. Pour lire la vidéo, mettre l'URL suivante (le lien de la vidéo est également disponible sur la page précédente) : 
-    http://localhost:8080/video.mp4
+<http://localhost:8080/video.mp4>
