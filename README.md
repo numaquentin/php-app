@@ -30,5 +30,5 @@ The services shows a basic example of how to create a service for processing vid
     php server.php
 ## 4. Dans un navigateur, mettre l'URL suivante : 
     http://localhost:8080/client.php
-## 5. Pour lire la vidéo, mettre l'URL suivante : 
+## 5. Pour lire la vidéo, mettre l'URL suivante (le lien de la vidéo est également disponible sur la page précédente) : 
     http://localhost:8080/video.mp4
